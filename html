@@ -1,0 +1,14 @@
+
+<div id="distpicker1">
+    <select id="distprovince_id" name="distprovince"></select>
+    <select id="distcity_id" name="distcity"></select>
+    <select id="distarea_id" name="distarea"></select>
+    <select id="distroad_id" name="distroad"></select>
+</div>
+//可传入默认值
+$("#distpicker1").addressInit({
+  province:distprovince,
+  city:distcity,
+  district:distarea,
+  road:distroad
+});
